@@ -191,6 +191,14 @@ var BaseQuestions = [{
         subscript: '6h',
         elements: ['E', 'C', '6C', 'i', 'σ', '6σ'],
         elements_subscript: ['', '6', '2', '', 'h', 'v']
+    },
+    {
+        question: 'Allene',
+        img: 'Allene',
+        answer: 'S',
+        subscript: '4',
+        elements: ['E', 'C', 'S'],
+        elements_subscript: ['', '2', '4']
     }
 ]
 
