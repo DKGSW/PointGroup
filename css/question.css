@@ -26,12 +26,14 @@ main {
     border-style: solid;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    text-align: center;
 }
 
 .score>h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 3.5rem;
     font-weight: 500;
+    display: inline-block;
 }
 
 .result_detail {

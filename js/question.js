@@ -340,16 +340,16 @@ function ShowResult() {
         var result_dataans = $('<div>').addClass('col-6').addClass('col-sm-6').addClass('result_dataans').css('text-align', 'center');
         result_dataans.append($('<h1>').text(Questions[i].answer).css('color', 'black').css('font-size', '2rem').append($('<sub>').text(Questions[i].subscript)));
         if (Questions[i].elements.length == 1) {
-            var solution = $('<div>').addClass('col-12').addClass('col-sm-12').addClass('solution').addClass('btn').addClass('btn-outline-dark').attr('type', 'button').attr('data-toggle', 'modal').attr('data-target', '#solution').attr('id', String(i)).text('Symmetry Element');
+            var solution = $('<div>').addClass('col-12').addClass('col-sm-12').addClass('solution').addClass('btn').addClass('btn-outline-dark').attr('type', 'button').attr('data-toggle', 'modal').attr('data-target', '#solution').attr('id', String(i)).text('Symmetry Element').append($('<i>').addClass('fas').addClass('fa-eye').addClass('ml-2').attr('aria-hidden', 'true'));
         } else {
-            var solution = $('<div>').addClass('col-12').addClass('col-sm-12').addClass('solution').addClass('btn').addClass('btn-outline-dark').attr('type', 'button').attr('data-toggle', 'modal').attr('data-target', '#solution').attr('id', String(i)).text('Symmetry Elements');
+            var solution = $('<div>').addClass('col-12').addClass('col-sm-12').addClass('solution').addClass('btn').addClass('btn-outline-dark').attr('type', 'button').attr('data-toggle', 'modal').attr('data-target', '#solution').attr('id', String(i)).text('Symmetry Elements').append($('<i>').addClass('fas').addClass('fa-eye').addClass('ml-2').attr('aria-hidden', 'true'));
         };
         result_detail.append(result_no).append(result_img).append(userans_text).append(dataans_text).append(result_userans).append(result_dataans).append(solution);
         Results[i] = result;
     };
-    var score = $('<div>').addClass('col-12').addClass('col-sm-12').addClass('score').append($('<h1>').text('Your Score: ' + correct + '/' + QN).css('text-align', 'center'));
+    var score = $('<div>').addClass('col-12').addClass('col-sm-12').addClass('score').append($('<h1>').append($('<i>').addClass('fas').addClass('fa-trophy').addClass('mr-3').attr('aria-hidden', 'true'))).append($('<h1>').text('Your Score: ' + correct + '/' + QN).css('text-align', 'center'));
     frame2.append(score).append(...Results);
-    frame.append($('<div>').addClass('row').css('margin-bottom', '3vh').append($('<div>').addClass('col-12').addClass('col-sm-12').addClass('col-md-6').append($('<a>').addClass('btn').addClass('btn-danger').addClass('btn-lg').addClass('btn-block').attr('role', 'button').text('Try Again').attr('href', 'question.html').css('margin-top', '3vh'))).append($('<div>').addClass('col-12').addClass('col-sm-12').addClass('col-md-6').append($('<a>').addClass('btn').addClass('btn-secondary').addClass('btn-lg').addClass('btn-block').attr('role', 'button').text('Back To Homepage').attr('href', 'index.html').css('margin-top', '3vh'))));
+    frame.append($('<div>').addClass('row').css('margin-bottom', '3vh').append($('<div>').addClass('col-12').addClass('col-sm-12').addClass('col-md-6').append($('<a>').addClass('btn').addClass('btn-danger').addClass('btn-lg').addClass('btn-block').attr('role', 'button').text('Try Again').attr('href', 'question.html').css('margin-top', '3vh').append($('<i>').addClass('fas').addClass('fa-redo').addClass('ml-2').attr('aria-hidden', 'true')))).append($('<div>').addClass('col-12').addClass('col-sm-12').addClass('col-md-6').append($('<a>').addClass('btn').addClass('btn-secondary').addClass('btn-lg').addClass('btn-block').attr('role', 'button').text('Back To Homepage').attr('href', 'index.html').css('margin-top', '3vh').append($('<i>').addClass('fas').addClass('fa-home').addClass('ml-2').attr('aria-hidden', 'true')))));
 
     $('.solution').on('click', Click);
 
