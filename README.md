@@ -8,10 +8,19 @@ Point groups are used to describe molecular symmetries and are a condensed repre
 ---
 html5、css3、jQuery
 
-模板
+排板
 ---
-Boostrap
+Boostrap G
+
+字型
+---
+Google font
 
 內容簡介
 ---
-因為網路上的圖大小都很小且很難去背，所以所有的結構式都是自己畫的，也因此在建構題庫上花費了不少時間@@。而且因為需要用到下標，所以所有的symmetry element都得分開列，在此上也花了不少時間，然後最後結果的"Symmetry element"按鈕和內容會根據是否有複數個element決定是否加s。
+1.因為網路上的圖大小都很小且很難去背，所以所有的結構式都是自己畫的
+2.因為會用到下標，所以都有另外存
+3.最後結果的"Symmetry element"按鈕和內容會根據是否有複數個element決定是否加s
+4.最下面footer的地方會連到之前寫的個人網頁
+5.隨機排序不是用老師的方法，而是利用Math.random()-0.5後可以視為等機率產生正值或負值而去排序
+6.這次作業用到了很多jQuery的很多沒看過的寫法，算是真的學到很多
