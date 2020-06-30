@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+Point Group Assignment
+===
+Introduction
+---
+Point groups are used to describe molecular symmetries and are a condensed representation of the symmetry elements a molecule may posses. This includes both bond and orbital symmetry. Knowing molecular symmetry allows for a greater understanding of molecular structure and can help to predict many molecular properties. Point groups are a quick and easy way to gain knowledge of a molecule. They not only contain a molecule's symmetry elements, but also give rise to a charcter table, which is a the complete set of irreducible representations for a point group. A molecule's point group can be determined by elucidating each symmetry element contained in a molecule.
 
-You can use the [editor on GitHub](https://github.com/DKGSW/PointGroup/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+語法
+---
+html5、css3、jQuery
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+模板
+---
+Boostrap
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DKGSW/PointGroup/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+內容簡介
+---
+因為網路上的圖大小都很小且很難去背，所以所有的結構式都是自己畫的，也因此在建構題庫上花費了不少時間@@。而且因為需要用到下標，所以所有的symmetry element都得分開列，在此上也花了不少時間，然後最後結果的"Symmetry element"按鈕和內容會根據是否有複數個element決定是否加s。
