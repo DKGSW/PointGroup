@@ -145,7 +145,7 @@ var BaseQuestions = [{
         elements_subscript: ['', '3', 'v']
     },
     {
-        question: 'Azane',
+        question: 'Ammonia',
         img: 'Azane',
         answer: 'C',
         subscript: '3v',
